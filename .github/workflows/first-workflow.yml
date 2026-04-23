@@ -5,6 +5,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Print Greet
-              run: echo "Hello buddy !!"
+              run: |
+                  echo "hello buddy"
+                  echo "this is the second line"
+                  echo "third command to check how to pass multiline statements"
             - name: Print GoodBye
               run: echo "Done bYE BYE !!"
